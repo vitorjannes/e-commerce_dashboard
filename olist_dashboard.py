@@ -128,7 +128,6 @@ card_title_style = {'font-size': '70%',
 
 # Build App
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-server = app.server
 
 app.layout = html.Div([
 html.Div([
